@@ -19,7 +19,7 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    if message.content.startswith($nld):
+    if message.content.startswith("$nld"):
         await message.channel.send("Well come back!")
 
 
