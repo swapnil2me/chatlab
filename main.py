@@ -6,7 +6,7 @@ import pandas
 import matplotlib
 
 
-client = discord.Clent()
+client = discord.Client()
 
 
 @client.event
