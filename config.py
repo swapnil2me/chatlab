@@ -16,4 +16,13 @@ color_pallete = {
     'price_down' : '#ff5252',
 }
 
+cwq_style = {"name":"iqx",
+         "backgroundcolor":"#212121",
+         "textcolor":"#FAFAFA",
+         "subtextcolor":"EAEAEA",
+         "linecolor":"#FAFAFA",
+         "gatetextcolor":"#FAFAFA",
+
+        }
+
 fontsize = 18
