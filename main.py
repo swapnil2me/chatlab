@@ -171,16 +171,16 @@ async def on_message(message):
                 quantum_cord.init_measure_block()
                 fig, op = quantum_cord.open_ckt()
                 await send_figure(fig, op, message, "Your Quantum Circuit")
-                fig, op = quantum_cord.qsphere('classic')
-                await send_figure(fig, op, message, "Q sphere after measurement")
+                # fig, op = quantum_cord.qsphere('classic')
+                # await send_figure(fig, op, message, "Q sphere after measurement")
                 fig, op = quantum_cord.multi_vector('classic')
                 await send_figure(fig, op, message, "Bloch sphere after measurement")
 
             elif message.content.lower() == "show quantum state":
                 fig, op = quantum_cord.open_ckt()
                 await send_figure(fig, op, message, "Your Quantum Circuit")
-                fig, op = quantum_cord.qsphere('before_classic')
-                await send_figure(fig, op, message, "Q sphere before measurement")
+                # fig, op = quantum_cord.qsphere('before_classic')
+                # await send_figure(fig, op, message, "Q sphere before measurement")
                 fig, op = quantum_cord.multi_vector('before_classic')
                 await send_figure(fig, op, message, "Bloch sphere before measurement")
 
